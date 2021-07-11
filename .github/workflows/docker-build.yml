@@ -41,3 +41,4 @@ jobs:
             ghcr.io/erisa/cloudflared:${{ steps.previoustag.outputs.tag }}
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
+ 
