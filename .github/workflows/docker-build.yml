@@ -7,7 +7,7 @@ on:
 
 jobs:
   multi-platform-build:
-    runs-on: ARM64
+    runs-on: self-hosted
     steps:
       -
         name: Checkout
